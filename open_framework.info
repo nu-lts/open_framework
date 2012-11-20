@@ -2,10 +2,14 @@ name = Open Framework
 description = Base theme made with Twitter Bootstrap
 core = 7.x
 version = 2.0
+base theme = twitter_bootstrap
 
-stylesheets[all][] = bootstrap/css/bootstrap.min.css
-stylesheets[all][] = bootstrap/css/bootstrap-responsive.min.css
-stylesheets[all][] = css/open_framework.css
+;stylesheets[all][] = bootstrap/css/bootstrap.min.css
+;stylesheets[all][] = bootstrap/css/bootstrap-responsive.min.css
+;stylesheets[all][] = css/open_framework.css
+stylesheets[all][] = less/global.less
+
+
 scripts[] = js/jquery-1.8.2.min.js
 scripts[] = bootstrap/js/bootstrap.min.js
 scripts[] = js/open_framework.js
